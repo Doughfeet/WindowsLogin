@@ -50,10 +50,17 @@ namespace WindowsLogin
             }
             else
             {
-                MessageBox.Show("Please check your Username and Password");
+                MessageBox.Show("Please check your Username and Password!");
             }
 
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registration reg = new Registration();
+            reg.Show();
         }
     }
 }

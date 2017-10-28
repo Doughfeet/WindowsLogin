@@ -1,0 +1,39 @@
+[33mcommit d68df4b0777d1baf545394f9153a8d9bf9ab5630[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: doughfeet <kennethblix@gmail.com>
+Date:   Sat Oct 28 11:45:13 2017 +0200
+
+    Changed the readmefile
+
+[33mcommit 32bc5baf5d4ccea49834f357fa7f44286d1234d4[m
+Merge: 15c3ae6 44a1d71
+Author: doughfeet <kennethblix@gmail.com>
+Date:   Sat Oct 28 11:39:07 2017 +0200
+
+    testing
+
+[33mcommit 15c3ae623a7f28ad52ac812d65086204caf1e44b[m
+Author: doughfeet <kennethblix@gmail.com>
+Date:   Sat Oct 28 11:29:17 2017 +0200
+
+    made a change on the readmefile
+
+[33mcommit 44a1d7139bc7b48912448aa1913477b31ed28185[m
+Merge: 99f2768 09f8385
+Author: Kenneth Blix <kennethblix@gmail.com>
+Date:   Sat Oct 28 10:57:07 2017 +0200
+
+    Merge pull request #1 from Doughfeet/add-readme
+    
+    add readmefile
+
+[33mcommit 09f8385763d7814a82a796817128a9d39f76b9ea[m[33m ([m[1;31morigin/add-readme[m[33m)[m
+Author: doughfeet <kennethblix@gmail.com>
+Date:   Sat Oct 28 10:47:31 2017 +0200
+
+    add readmefile
+
+[33mcommit 99f2768dfa013b7ada159c544ae1033407ef69ce[m
+Author: doughfeet <kennethblix@gmail.com>
+Date:   Sat Oct 28 10:32:45 2017 +0200
+
+    initial commit

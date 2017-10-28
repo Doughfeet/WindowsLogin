@@ -9,3 +9,4 @@ C:\Users\kenne\Documents\Visual Studio 2017\Projects\WindowsLogin\WindowsLogin\o
 C:\Users\kenne\Documents\Visual Studio 2017\Projects\WindowsLogin\WindowsLogin\obj\Debug\WindowsLogin.csproj.CoreCompileInputs.cache
 C:\Users\kenne\Documents\Visual Studio 2017\Projects\WindowsLogin\WindowsLogin\obj\Debug\WindowsLogin.exe
 C:\Users\kenne\Documents\Visual Studio 2017\Projects\WindowsLogin\WindowsLogin\obj\Debug\WindowsLogin.pdb
+C:\Users\kenne\Documents\Visual Studio 2017\Projects\WindowsLogin\WindowsLogin\obj\Debug\WindowsLogin.Registration.resources
