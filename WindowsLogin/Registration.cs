@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsLogin
 {
@@ -17,8 +18,23 @@ namespace WindowsLogin
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnAddUser_Click(object sender, EventArgs e)
         {
+            string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\kenne\Source\Repos\WindowsLogin\WindowsLogin\WLoginDatabase.mdf; Integrated Security = True; Connect Timeout = 30";
+            string query = @"INSERT INTO Table 
+                                (Id, Username, Password)
+                            VALUES
+                                (@username, @password)";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                cmd.Parameters.AddWithValue("@username", TextboxUserName.Text);
+                cmd.Parameters.AddWithValue("@password", TextboxPassword.Text);
+                int result = cmd.ExecuteNonQuery();
+            }
 
         }
     }

@@ -28,19 +28,21 @@ namespace WindowsLogin
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnLogin_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kenne\Documents\Data.mdf;Integrated Security=True;Connect Timeout=30");
-            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) From [Table] where UserName = '" + textBox1.Text + "' and Password = '" + textBox2.Text + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) From [Table] where UserName = '" + TextboxUserName.Text + "' and Password = '" + TextboxPassword.Text + "'", con);
             DataTable dt = new DataTable();
 
             sda.Fill(dt);
 
+
+            //Check if the is any match in the datatable
             if (dt.Rows[0][0].ToString() == "1")
             {
                 this.Hide();
@@ -56,7 +58,7 @@ namespace WindowsLogin
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnNewUser_Click(object sender, EventArgs e)
         {
             this.Hide();
             Registration reg = new Registration();

@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.TextboxUserName = new System.Windows.Forms.TextBox();
+            this.TextboxPassword = new System.Windows.Forms.TextBox();
+            this.BtnExit = new System.Windows.Forms.Button();
+            this.BtnLogin = new System.Windows.Forms.Button();
             this.UserName = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LabelPassword = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LoginWindow = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnNewUser = new System.Windows.Forms.Button();
             this.LoginWindow.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TextboxUserName
             // 
-            this.textBox1.Location = new System.Drawing.Point(463, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(415, 31);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.TextboxUserName.Location = new System.Drawing.Point(463, 36);
+            this.TextboxUserName.Name = "TextboxUserName";
+            this.TextboxUserName.Size = new System.Drawing.Size(415, 31);
+            this.TextboxUserName.TabIndex = 0;
+            this.TextboxUserName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // TextboxPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(463, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(415, 31);
-            this.textBox2.TabIndex = 1;
+            this.TextboxPassword.Location = new System.Drawing.Point(463, 87);
+            this.TextboxPassword.Name = "TextboxPassword";
+            this.TextboxPassword.Size = new System.Drawing.Size(415, 31);
+            this.TextboxPassword.TabIndex = 1;
             // 
-            // button1
+            // BtnExit
             // 
-            this.button1.Location = new System.Drawing.Point(463, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 42);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "E&XIT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnExit.Location = new System.Drawing.Point(463, 150);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(202, 42);
+            this.BtnExit.TabIndex = 2;
+            this.BtnExit.Text = "E&XIT";
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
-            // button2
+            // BtnLogin
             // 
-            this.button2.Location = new System.Drawing.Point(676, 150);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(202, 42);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "LOGIN";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnLogin.Location = new System.Drawing.Point(676, 150);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(202, 42);
+            this.BtnLogin.TabIndex = 3;
+            this.BtnLogin.Text = "LOGIN";
+            this.BtnLogin.UseVisualStyleBackColor = true;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // UserName
             // 
@@ -85,14 +85,14 @@
             this.UserName.Text = "UserName";
             this.UserName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // LabelPassword
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(323, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Password";
+            this.LabelPassword.AutoSize = true;
+            this.LabelPassword.Location = new System.Drawing.Point(323, 93);
+            this.LabelPassword.Name = "LabelPassword";
+            this.LabelPassword.Size = new System.Drawing.Size(106, 25);
+            this.LabelPassword.TabIndex = 5;
+            this.LabelPassword.Text = "Password";
             // 
             // label3
             // 
@@ -112,15 +112,15 @@
             this.LoginWindow.Size = new System.Drawing.Size(276, 241);
             this.LoginWindow.TabIndex = 7;
             // 
-            // button3
+            // BtnNewUser
             // 
-            this.button3.Location = new System.Drawing.Point(463, 198);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(413, 43);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "New user";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BtnNewUser.Location = new System.Drawing.Point(463, 198);
+            this.BtnNewUser.Name = "BtnNewUser";
+            this.BtnNewUser.Size = new System.Drawing.Size(413, 43);
+            this.BtnNewUser.TabIndex = 8;
+            this.BtnNewUser.Text = "New user";
+            this.BtnNewUser.UseVisualStyleBackColor = true;
+            this.BtnNewUser.Click += new System.EventHandler(this.BtnNewUser_Click);
             // 
             // Form1
             // 
@@ -128,14 +128,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(926, 274);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnNewUser);
             this.Controls.Add(this.LoginWindow);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LabelPassword);
             this.Controls.Add(this.UserName);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BtnLogin);
+            this.Controls.Add(this.BtnExit);
+            this.Controls.Add(this.TextboxPassword);
+            this.Controls.Add(this.TextboxUserName);
             this.Name = "Form1";
             this.Text = "Form1";
             this.LoginWindow.ResumeLayout(false);
@@ -147,15 +147,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox TextboxUserName;
+        private System.Windows.Forms.TextBox TextboxPassword;
+        private System.Windows.Forms.Button BtnExit;
+        private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.Label UserName;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LabelPassword;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel LoginWindow;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnNewUser;
     }
 }
 
